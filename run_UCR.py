@@ -61,7 +61,7 @@ if __name__ == '__main__':
     datas = setting["name"].values
     model_setting_ids = setting["model_setting"].values
 
-    for i in range(1):
+    for i in range(250):
         args.data = datas[i]
 
         # Exp

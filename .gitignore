@@ -7,3 +7,6 @@ a_gt.npy
 a_test_energy.npy
 dataset/data/*.csv
 dataset/UCR_Anomaly_FullData/*.txt
+
+test_results/UCR/*.txt
+configs/UCR/*.txt
