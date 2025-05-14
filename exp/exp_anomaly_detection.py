@@ -74,8 +74,6 @@ class Exp_Anomaly_Detection():
             from data_provider.data_provider import data_provider
         elif self.args.data_origin == "UCR":
             from data_provider.data_provider_UCR import data_provider
-        elif self.args.data_origin == "TSB_AD":
-            from data_provider.data_provider_TSB_AD import data_provider
         win_size = self.model_configs.seq_len
         if step is None:
             step = win_size
