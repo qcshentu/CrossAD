@@ -3,6 +3,6 @@
     "batch_size": 128,
     "optim": "adam",
     "learning_rate": 1e-4,
-    "lradj": "type1",
+    "lradj": "type2",
     "patience": 3
 }
