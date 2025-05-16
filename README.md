@@ -60,11 +60,11 @@ dataset
 1. The model structure of **CrossAD** under the folder ```./models/CrossAD/```
 2. We provide the scripts for CrossAD under the folder ```./scripts/```. For example you can reproduce a experiment result as the following:
 ```bash
-sh ./scripts/test/PSM.sh
+sh ./scripts/test/GECCO.sh
 ```
 If there is no model weight, please execute the following script:
 ```bash
-sh ./scripts/train/PSM.sh
+sh ./scripts/train/GECCO.sh
 ```
 ## Results
 Results in the seven real-world datasets. The V-R and V-P are the VUS-ROC and VUS-PR, that higher indicate better performance. The best ones are in **bold**, and the second ones are underlined.
